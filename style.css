@@ -1,3 +1,72 @@
-body{
-    background-color: black;
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffdcb8;
+}
+
+header div {
+    display: flex;
+    margin: 2em;
+}
+
+#user-container {
+    flex-direction: column;
+    text-align: center;
+}
+
+#user-container img {
+    width: 120px;
+}
+
+#logo-container img {
+    width: 320px;
+    border-radius:100%;
+}
+
+#logo-container ul {
+    display: flex;
+    gap: 3em;
+    list-style: none;
+    align-items: center;
+}
+
+#logo-container ul li:hover {
+    color: white;
+}
+
+/* CONTAINER DAS FIGURA */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.fig-container {
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-around;
+    text-align: center;
+    gap: 1em;
+    max-width: 75%;
+    flex-wrap: wrap;
+    padding: 2em;
+    border-radius: 2em;
+}
+
+#flag {
+    width: 240px;
+}
+
+.fig {
+    background-color: blueviolet;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.fig img {
+    width: 120px;
 }
